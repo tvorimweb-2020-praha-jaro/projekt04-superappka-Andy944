@@ -18,6 +18,7 @@ body {
     margin: 0;
     background-color: #e5e5e5;
     font-family: "Source Sans Pro", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -31,3 +32,119 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.menu li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.menu a {
+	display: block;
+	padding: 10px 20px;
+	color: rgb(102, 100, 100);
+	text-decoration: none;
+}
+/* prechod meni barvu  */
+.menu a:hover {
+    /* background-color: #48418e; */
+    font-weight: 700;
+}
+
+.kontejner {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+  }
+
+ .nazev {
+    position: absolute;
+    top: 34px;
+    left: 28px;
+    font-size: 84px;
+    color: white;
+    font-weight: 400;
+  }
+
+  .slogan {
+    position: absolute;
+    top: 40%;
+    left: 28px;
+    font-size: 44px;
+    color: white;
+    font-weight: 300;
+  }
+
+  .slogan2 {
+    position: absolute;
+    top: 49%;
+    left: 28px;
+    font-size: 44px;
+    color: white;
+    font-weight: 300;
+  }
+
+  .telefon {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+  }
+
+  .tlacitko1,
+  .tlacitko2 {
+    position: absolute;
+    bottom: 110px;
+    left: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    padding: 14px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75);
+}
+
+.tlacitko2 {
+  left: 255px;
+}
+
+/* prechod meni barvu  */
+.akce a:hover {
+  background-color: #48418e;
+}
+
+.kontejner2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.kontejner2 .nadpis {
+ font-weight: 700;
+ color: #48418e;
+ font-size: 18px;
+}
+
+.kontejner2 .lorem {
+  font-weight: 400;
+}
+
+.paticka {
+  color: white;
+  margin-top: 20px;
+  padding: 0.1rem;
+  background-color: #48418e;
+  text-align: center;
+}
